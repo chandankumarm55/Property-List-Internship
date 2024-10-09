@@ -2,16 +2,6 @@
 
 This repository contains the backend server for the Property Listing application, developed for an internship project.
 
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [Running the Server](#running-the-server)
-- [API Endpoints](#api-endpoints)
-- [Deployment](#deployment)
-- [Client Side](#client-side)
-
 ## Prerequisites
 
 - Node.js (v14 or later)
