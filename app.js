@@ -11,9 +11,15 @@ dotenv.config();
 
 const app = express();
 
+// CORS options
+const corsOptions = {
+    origin: process.env.FRONTEND_URL, // Allow requests from your frontend
+    credentials: true, // Allow cookies and authentication
+};
+
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors(corsOptions)); // Use CORS options
 
 // Serve static files (uploaded images)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
